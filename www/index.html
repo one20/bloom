@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<meta property="og:url" content="http://alducente.com/demos/bloom/index.html" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Bloom - A pixi.js demo" />
+		<meta property="og:description" content="A small demo with pixi.js" />
+		<meta property="og:image" content="http://alducente.com/demos/bloom/images/share.jpg" />
+		<title>Bloom - A pixi.js demo</title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			body{
+				background: url('images/bg.jpg');
+				background-size: cover;
+				font-family: Helvetica, Arial, 'sans serif';
+				font-size: 10px;
+				color: #000;
+				font-weight: bold;
+			}
+			a{
+				color: #000;
+			}
+			.description, .instructions{
+				position: absolute;
+			}
+			.description, .instructions p{
+				padding: 10px;
+			}
+			.instructions{
+				color: #fff;
+				
+				bottom: 420px;
+				text-align: center;
+				width: 100%;
+			}
+			.instructions p{
+				background: #3d3d3d;
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="description">
+			<h1>Bloom - A pixi.js demo</h1>
+			<p>BY: <a href="http://alducente.com">CARLO ALDUCENTE</a></p>
+		</div>
+		<div class="instructions"><p>TAP OR CLICK ON THE PETALS</p></div>
+		<script src="js/index.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-2934272-7', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
