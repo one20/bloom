@@ -4,8 +4,8 @@ class Bloom {
 		this.stage = new PIXI.Container();
 
 		this.flower = new Flower();
-		this.flower.position.x = 200;
-		this.flower.position.y = 600;
+		this.flower.position.x = 100;
+		this.flower.position.y = 100;
 		this.stage.addChild(this.flower);
 
 		this.grass = new PIXI.extras.TilingSprite(PIXI.Texture.fromImage('images/grass_texture.png'), this.renderer.width, 200);
